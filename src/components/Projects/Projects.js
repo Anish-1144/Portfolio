@@ -16,6 +16,7 @@ import echio from '../../Assets/Projects/echio.png'; // Placeholder image
 import tambez from '../../Assets/Projects/tambez.png'; // Placeholder image
 import kollege from '../../Assets/Projects/kollege.jpg'; // Placeholder image
 import hire from '../../Assets/Projects/hire.jpg'; // Placeholder image
+import lodgezify from '../../Assets/Projects/lodgezify.png';
 // import wowcoach from '../../Assets/Projects/wowcoach.png'; // Placeholder image
 
 function Projects() {
@@ -77,6 +78,16 @@ function Projects() {
               title="Tambez"
               description="Developed a social media app designed for Vision 2047 of India."
               demoLink="https://play.google.com/store/apps/details?id=com.tambez.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lodgezify}
+              isBlog={false}
+              title="Lodgezify"
+              description="An all-in-one PMS + POS platform for modern hospitality. A complete technology solution that brings together Property Management, Point of Sale, Payments, Channel Management, and Cloud Reporting into one unified system for hotels, motels, and serviced apartments."
+              demoLink="https://play.google.com/store/apps/details?id=com.lodgezify.app&hl=en"
             />
           </Col>
 
